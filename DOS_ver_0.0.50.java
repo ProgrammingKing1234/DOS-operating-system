@@ -91,7 +91,7 @@ public class DOS {
 			
 			
 		}else if (selection0 == 2) {
-			System.out.println("MS DOS version - 0.0.40");
+			System.out.println("MS DOS version - 0.0.50");
 		}else if (selection0 == 3) {
 			System.out.println("--------------------------------------------------------CONTROL PANEL--------------------------------------------------------");
 			
