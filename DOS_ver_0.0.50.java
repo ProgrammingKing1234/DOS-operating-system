@@ -8,7 +8,7 @@ public class DOS {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Welcome to MS DOS - 0.0.40");
+		System.out.println("Welcome to MS DOS - 0.0.50");
 		
 		SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy");
 		Date date = new Date();
