@@ -108,10 +108,22 @@ public class DOS {
 			int control_panel = scanner.nextInt();
 			
 			if (control_panel == 1) {
-				System.out.println("NULL");
+				System.out.println("[1] - Increase volume" +  " | " + "[2] - Decrease volume");
+				int selection11 = scanner.nextInt();
+				
+				if (selection11 == 1){
+					System.out.println("Increased volume");
+				}
+				
+				else if (selection11 == 2){
+					System.out.println("Decreased volume");
+				}
+
 				
 			}else if (control_panel == 2) {
-				System.out.println("Null2");
+				System.out.println("1) Calculator");
+				System.out.println("----More under construction----");
+				
 			}else if (control_panel == 3) {
 				System.out.println("Navigation: Navigate using numbers just like how you came here");
 				System.out.println("About system: Very basic MS DOS type in terminal (don't expect much)");
